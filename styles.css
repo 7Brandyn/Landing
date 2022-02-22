@@ -21,9 +21,13 @@ ul {
     flex-direction: row;
     list-style-type: none;
 }
-button {;
+button {
+    margin-top: 16px;
     color: #e5e7eb;
     background-color: #3882f6;
+    padding: 8px 24px;
+    border-radius: 8px;
+
     
 }
 .body {
@@ -32,43 +36,55 @@ button {;
 
 .header {
     height: 100px;
+    padding: 0 20px;
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #logo {
-    padding: 24px;
     font-size: 18px;
     color: #f9faf8;
 }
 
 #links {
     display: flex;
-    padding: 24px;
+    padding-left: 40px;
     background-color: #1f2937;
 }
 
 .hero-container {
     height: 400px;
     flex: 1;
+    padding: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #1f2937;
     color: #e5e7eb;
 }
 
 .text-container {
-    margin: 24px;
+    display: flex;
+    max-width: 600px;
+    flex-wrap: wrap;
+    align-self: center;
 }
 
+.text-container > h1 {
+    padding-bottom: 8px;
+}
 .image-placeholder {
-    margin: 40px;
+    display: flex;
     justify-content: center;
     max-width: 100%;
-    height: auto;
+    height: 400px;
+    padding: 100px;
+}
+
+.mid-container {
+    color: red;
 }
 
 .quote-container {
