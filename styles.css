@@ -55,7 +55,7 @@ button {
 }
 
 .hero-container {
-    height: 400px;
+    height: 600px;
     flex: 1;
     padding: 100px;
     display: flex;
@@ -79,12 +79,37 @@ button {
     display: flex;
     justify-content: center;
     max-width: 100%;
-    height: 400px;
-    padding: 100px;
+    height: auto;
+    margin: 100px;
 }
 
 .mid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0 50px;
+}
+
+.mid-container body {
+    text-align: center;
+}
+}
+
+.textbox {
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 0 16px;
+}
+
+.textbox > img {
+    height: 200px;
+    width: auto;
+}
+
+.text {
     color: red;
+    width: 200px;
 }
 
 .quote-container {
