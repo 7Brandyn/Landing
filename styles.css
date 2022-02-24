@@ -85,10 +85,10 @@ button {
 
 .mid-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 600px;
-    margin: 0 50px;
+    margin: 0 100px;
 }
 
 .mid-container body {
