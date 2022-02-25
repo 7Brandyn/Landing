@@ -18,7 +18,6 @@ a {
 
 ul {
     display: flex;
-    flex-direction: row;
     list-style-type: none;
 }
 button {
@@ -37,6 +36,7 @@ button {
 .header {
     height: 100px;
     padding: 0 20px;
+    background-color: #1f2937;
     flex: 1;
     display: flex;
     align-items: center;
@@ -50,14 +50,13 @@ button {
 
 #links {
     display: flex;
-    padding-left: 40px;
     background-color: #1f2937;
 }
 
 .hero-container {
     height: 600px;
     flex: 1;
-    padding: 100px;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,16 +83,12 @@ button {
 }
 
 .mid-container {
+    flex: 1;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 600px;
-    margin: 0 100px;
-}
-
-.mid-container body {
-    text-align: center;
-}
+    margin: 0 200px;
 }
 
 .textbox {
@@ -108,27 +103,40 @@ button {
 }
 
 .text {
-    color: red;
+    text-align: center;
     width: 200px;
 }
 
 .quote-container {
+    background-color: #e5e7eb;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
 
+.quote {
+    margin-top: 200px;
+    font-size: 36px;
+    max-width: 1200px;
+    
+}
+
+.para {
+    color: blue;
+    display: flex;
+    justify-content: center;
 }
 
 .bottom-container {
-
+    
 }
 
 .box {
-
+    background-color: blue;
+    height: 600px;
 }
 
 .footer {
-
-}
-
-.header,
-.footer {
+    height: 150px;
     background-color: #1f2937;
 }
