@@ -76,11 +76,21 @@ button {
     max-width: 600px;
     flex-wrap: wrap;
     align-self: center;
+    padding-left: 50px;
+}
+
+.randomInfo {
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .text-container > h1 {
     padding-bottom: 8px;
 }
+
 .image-placeholder {
     display: flex;
     justify-content: center;
@@ -94,8 +104,9 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 600px;
+    height: 400px;
     margin: 0 200px;
+    margin-bottom: 100px;
 }
 
 .textbox {
@@ -121,6 +132,11 @@ button {
     height: 600px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.quoteBox {
+
 }
 
 .quote {
@@ -130,10 +146,13 @@ button {
     
 }
 
-.para {
-    color: blue;
+.thorGot {
+    font-size: 24px;
+    font-weight: 700;
     display: flex;
-    justify-content: center;
+    margin-left: 500px;
+    justify-content: flex-end;
+    max-width: 600px;
 }
 
 .bottom-container {
