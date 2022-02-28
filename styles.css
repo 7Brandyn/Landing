@@ -28,56 +28,74 @@ ul {
     list-style-type: none;
 }
 button {
-    margin-top: 16px;
     color: #e5e7eb;
     background-color: #3882f6;
     padding: 8px 24px;
     border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
 
     
 }
-.body {
-
+.entire-body {
 }
 
-.header {
-    height: 100px;
-    padding: 0 20px;
-    background-color: #1f2937;
-    flex: 1;
+.header-container {
     display: flex;
+    padding-top: 40px;
+    background-color: #1f2937;
+}
+
+.header-left {
+    flex: 1;
+    padding-left: 80px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #logo {
+    display: flex;
+    justify-content: flex-start;
     font-size: 18px;
     color: #f9faf8;
 }
 
-#links {
-    display: flex;
-    background-color: #1f2937;
+.links {
+    justify-content: flex-end;
+}
+
+.links-right {
+    flex: 1;
+    padding-right: 40px;
 }
 
 .hero-container {
     height: 600px;
-    flex: 1;
-    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1f2937;
+}
+
+.hero-box {
+    display: flex;
+    max-width: 1200px;
+    flex: 1;
     color: #e5e7eb;
+    margin: 0 50px;
 }
 
 .text-container {
     display: flex;
-    max-width: 600px;
+    max-width: 800px;
     flex-wrap: wrap;
     align-self: center;
-    padding-left: 50px;
 }
+
+.text-container > button {
+    margin-top: 16px;
+}
+
 
 .randomInfo {
     font-size: 36px;
@@ -93,26 +111,28 @@ button {
 
 .image-placeholder {
     display: flex;
-    justify-content: center;
     max-width: 100%;
     height: auto;
-    margin: 100px;
+}
+
+.random-container {
+
 }
 
 .mid-container {
     flex: 1;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 400px;
-    margin: 0 200px;
     margin-bottom: 100px;
 }
 
 .textbox {
+    display: flex;
     flex-wrap: wrap;
     max-width: 300px;
-    margin: 0 16px;
+    justify-content: space-evenly;
 }
 
 .textbox > img {
@@ -136,7 +156,7 @@ button {
 }
 
 .quoteBox {
-
+    margin: 0 50px;
 }
 
 .quote {
@@ -190,9 +210,16 @@ button {
 .signup {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 20px;
     margin-right: 200px;
     border-color: white;
+}
+
+.signup > button {
+    border-color: #e5e7eb;
+    padding: 8px 24px;
+    border: 3px;
+    border-style: solid;
+    font-size: 18px;
 }
 
 .footer {
