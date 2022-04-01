@@ -1,2 +1,2 @@
 # Landing
-Working on a landing page from scratch!
+Odin Project landing page from scratch using only HTML & CSS.
